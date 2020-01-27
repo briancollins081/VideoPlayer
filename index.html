@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Coming Soon Bootstrap Template</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- Fonteawesome -->
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <!-- Main CSS -->
+  <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+  <!-- City -->
+  <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet">
+  <!-- Fantasy -->
+  <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+  <!-- Forest -->
+  <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+  <!-- Sea -->
+  <link href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="title">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-12 welcome">
+          <h1>WELCOME TO MY VIDEO PLAYER APP</h1>
+          <p><span>This application is under construction.</span><br>Watch out for new features and additional
+            functionality.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-11">
+          <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#player">Content</button>
+          <div id="player" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="player-title"
+            aria-hidden="true">
+            <div class="modal-dialog mw-100 w-100" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="player-title">Title</h5>
+                  <button class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <video-js id="my-player" class="video-js vjs-theme-fantasy" controls preload="auto" width="860"
+                    height="480" data-setup="{
+    
+              }">
+                    <source
+                      src="/home/andere/Videos/4K Video Downloader/THE WAY YOU ARE - Otile Brown (Official video)sms skiza 7301259 to 811.mp4"
+                      type="video/mp4" />
+                    <source src="/home/andere/Videos/4K Video Downloader/Tekno - Yawa (Official Video).mp4"
+                      type="video/mp4" />
+                    <p class="vjs-no-js">
+                      To view this video please enable JavaScript, and consider upgrading to a
+                      web browser that
+                      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                  </video-js>
+                </div>
+                <div class="modal-footer">
+                  Footer
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="social-icon">
+    <div class="container">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="text-center">
+          <ul class="social-network">
+            <li><a href="#" class="tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="tool-tip" title="GitHub"><i class="fa fab fa-github-square"></i></a></li>
+            <li><a href="#" class="tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" class="tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="#" class="tool-tip" title="StackOverflow"><i class="fa fab fa-stack-overflow"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer start here -->
+  <footer>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="text-center">
+        <div class="copyright">
+
+          <span class="label label-default">Welcome Back...</span>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- VideoJS -->
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="js/styles.js"></script>
+</body>
+
+</html>
